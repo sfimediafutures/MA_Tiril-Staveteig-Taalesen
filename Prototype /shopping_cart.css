@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+#suggestion-swap{
+    width: 60%;
+    margin: 5%;
+    height: 70%;
+    background-color: #ffffff;
+    box-shadow: 0px 25px 40px #1687d933;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+#shopping-cart {
+    width: 90%;
+    margin: 2%;
+    background-color: #ffffff;
+    box-shadow: 0px 25px 40px #1687d933;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+    top: 80%;
+}
+
+.header{
+    margin-left: 40px;
+    width: 70%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Thonburi';
+    font-weight: 700;
+    color: #2F3841;
+    margin-top: 0%;
+}
+
+.heading{
+    margin: auto;
+    height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#image-Container{
+    width: 60%;
+    height: 90%;
+    text-align: center;
+}
+#image-Container img{
+    width: 50%;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+
+.recipe_header{
+    margin-left: 50px;
+    margin-bottom: 3%;
+    width: 90%;
+    height: 5%;
+    font-size: 23px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #909090;
+    margin-top: -4%;
+}
+
+table {
+    width: 100%;
+}
+td {
+    height: 40px;
+}
+td .image{
+    height: 100px;
+    width: 110px;
+    padding-left: 11px;
+}
+.image {
+    width: 100%;
+    margin: auto;
+    height: 20%;
+}
+
+.about{
+    height: 100%;
+    padding: -2px;
+}
+
+.title{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    line-height: 10px;
+    font-size: 22px;
+    font-family: ‘Open Sans’;
+    font-weight: 800;
+    color: #202020;
+}
+.subtitle{
+    line-height: 10px;
+    font-size: 22px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: gray;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.amount {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #202020;
+    padding-right: 100px;
+}
+
+
+td .img-swap{
+    height: 160px;
+    width: 160px;
+    padding-left: 10px;
+}
+.img-swap {
+    width: 100%;
+    margin: auto;
+    height: 20%;
+}
+td .swapped_img {
+    height: 160px;
+    width: 160px;
+    margin-left: -30px;
+}
+.swapped_img {
+    width: 100%;
+    margin: auto;
+    height: 20%;
+}
+td .text{
+    padding-right: 0px;
+}
+
+
+.arrow {
+    width: 70%;
+    padding-left: 15px;
+}
+#explanation {
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    width: 90%;
+    height: 5%;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #29465B;
+}
+
+
+.swap{
+    color: #29465B;
+    clear: both;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+hr{
+    width: 82%;
+    float: right;
+    margin-right: 5%;
+}
+
+.tr_price {
+    position: absolute;
+    top: 310px; /* adjust this value to move the element up or down */
+    left: 95px; /* adjust this value to move the element left or right */
+    padding: 100px;
+
+}
+
+.tr_price td {
+    padding-right: 550px;
+}
+
+
